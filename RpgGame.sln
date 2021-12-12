@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{61C5701C-56F0-47AD-AFDD-93B18E232CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame.Command.Api", "RpgGame.Command.Api\RpgGame.Command.Api.csproj", "{521849EE-B805-44C6-9255-B4A0652FDB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame.Command.Application", "RpgGame.Command.Application\RpgGame.Command.Application.csproj", "{D064A038-940E-4320-B56D-9A6155068FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{E3DF21B3-B111-4184-A4DC-3BAC08FDD68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame.Infrastructre", "RpgGame.Infrastructre\RpgGame.Infrastructre.csproj", "{E3817464-5382-4E89-97AF-8A283D5ED6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame.Query.Api", "RpgGame.Query.Api\RpgGame.Query.Api.csproj", "{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgGame.Query.Application", "RpgGame.Query.Application\RpgGame.Query.Application.csproj", "{4A89F74B-783C-4BD9-B700-158BDB465D1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{521849EE-B805-44C6-9255-B4A0652FDB79} = {61C5701C-56F0-47AD-AFDD-93B18E232CE1}
+		{D064A038-940E-4320-B56D-9A6155068FB1} = {61C5701C-56F0-47AD-AFDD-93B18E232CE1}
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E} = {E3DF21B3-B111-4184-A4DC-3BAC08FDD68F}
+		{4A89F74B-783C-4BD9-B700-158BDB465D1B} = {E3DF21B3-B111-4184-A4DC-3BAC08FDD68F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521849EE-B805-44C6-9255-B4A0652FDB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521849EE-B805-44C6-9255-B4A0652FDB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521849EE-B805-44C6-9255-B4A0652FDB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521849EE-B805-44C6-9255-B4A0652FDB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521849EE-B805-44C6-9255-B4A0652FDB79}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D064A038-940E-4320-B56D-9A6155068FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D064A038-940E-4320-B56D-9A6155068FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D064A038-940E-4320-B56D-9A6155068FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D064A038-940E-4320-B56D-9A6155068FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3817464-5382-4E89-97AF-8A283D5ED6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3817464-5382-4E89-97AF-8A283D5ED6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3817464-5382-4E89-97AF-8A283D5ED6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3817464-5382-4E89-97AF-8A283D5ED6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EAA3C6-8DD7-4BFE-A85D-4ED6BF6CCD5E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A89F74B-783C-4BD9-B700-158BDB465D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A89F74B-783C-4BD9-B700-158BDB465D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A89F74B-783C-4BD9-B700-158BDB465D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A89F74B-783C-4BD9-B700-158BDB465D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
