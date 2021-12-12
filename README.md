@@ -22,4 +22,5 @@ How to Run 🚀
 
 ## Diagrams 📸
 _Design of MediatR handlers with CQRS_
+
 ![rpggame](https://user-images.githubusercontent.com/47561392/145718417-b4470a5b-4564-4284-a696-df22f9b24add.png)
