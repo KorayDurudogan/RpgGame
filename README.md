@@ -19,7 +19,6 @@ How to Run 🚀
 
 * Run MongoDB at your local. Assign it's connection strings under both APIs' Startups.
 * Project doesn't have any endpoint for inserting a _character_ data, so you should insert atleast one from MongDb Shell or MongoDb Compass
-* Project doesnt't have endpoint for inserting a character so you gotta insert one from MongoShell.
 
 ![Screen Shot 2021-12-12 at 20 50 19](https://user-images.githubusercontent.com/47561392/145766627-6f8492e0-db50-4ff0-a06f-55cb0ad177ae.png)
 
