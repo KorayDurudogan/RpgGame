@@ -24,7 +24,7 @@ namespace RpgGame.Command.Api.Controllers
         public async Task<IActionResult> SetItemEvent(WearItemRequest wearItemRequest)
         {
             var handlerRequest = _mapper.Map<WearItemRequestDto>(wearItemRequest);
-            await _mediator.Publish(handlerRequest);
+            await _mediator.Send(handlerRequest);
             return Ok();
         }
     }

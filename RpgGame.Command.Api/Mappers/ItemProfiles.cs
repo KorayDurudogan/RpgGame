@@ -11,9 +11,10 @@ namespace RpgGame.Command.Api.Mappers
         public ItemProfiles()
         {
             CreateMap<WearItemRequest, WearItemRequestDto>();
-            CreateMap<WearItemRequestDto, ItemEvent>()
+            CreateMap<ItemWeared, ItemEvent>()
                 .ForMember(dto => dto.Date, y 
                     => y.MapFrom(a => DateTime.Now));
+            CreateMap<WearItemRequestDto, ItemWeared>();
         }
     }
 }
